@@ -4,7 +4,10 @@
   "description": "I try to learn react for my community service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev --turbopack --port=8080",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,19 @@
   "bugs": {
     "url": "https://github.com/Timon-D3v/learn-react/issues"
   },
-  "homepage": "https://github.com/Timon-D3v/learn-react#readme"
+  "homepage": "https://github.com/Timon-D3v/learn-react#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.3",
+    "@eslint/eslintrc": "^3"
+  }
 }
